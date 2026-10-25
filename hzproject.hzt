@@ -1,0 +1,15 @@
+type HzProjectConfig
+version 1
+---
+name net-crowd-stress-test
+id 6c1f0e93a8d74b52b2e95f4d07a3c618
+engine hz
+src_roots 1 src
+asset_roots 1 assets
+test_roots 1 tests
+ios_bundle_name NetCrowd
+ios_bundle_id com.kaigen.demo.netcrowd
+publish
+  product_name "Net Crowd Stress Test"
+modules 1 gameplay_blocks
+orientation landscape
